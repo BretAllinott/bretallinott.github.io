@@ -237,6 +237,9 @@ div.Title {
 	width: 900px;
 	
 	text-align: center;
-	font-size: 100px;
+	font-size: 25px;
 	background: rgb(40,40,40);
+}
+h1 {
+	font-size: 100px;
 }
