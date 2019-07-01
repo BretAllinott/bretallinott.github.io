@@ -5,8 +5,6 @@ h1, h2, a, p {
 
 body {
 	background-color: #212121;
-	margin: 0;
-	padding: 0;
 	color: white;
 }
 /* bio formatting */
@@ -24,16 +22,44 @@ div#intro td{
 	margin: 0;
 	padding: 50px;
 }
+div#navBar ul{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background-color:#212121;
+}
+div#navBar a{
+	display:block;
+	color:white;
+	text-align:center;
+	padding:0px 60px;
+	text-decoration:none;
+	font-size:30px;
+}
+div#navBar li{
+	float:left;
+}
+	/*Add a background colour on mouse-over*/
+div#navBar a:hover{
+	background-color:#4CAF50;
+}
+	/*Style the current/active link*/
+div#navBar a.active {
+	background-color:#4CAF50;	
+}
 
 /* constants */
 .smallContent {
 	width: 850px;
 	margin: auto;
 }
-.centerContent {
+.centerContent p{
 	min-width: 810px;
 	max-width: 1250px;
-	margin: auto;
+	text-align:right;
+	margin-top:200px;
+	margin-left:100px;
 }
 div.Title {
 	margin: auto;
