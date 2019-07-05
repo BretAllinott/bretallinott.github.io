@@ -194,6 +194,7 @@ div#navBar a.active {
 	margin-left:12%;
 	margin-top:0%;
 	margin-bottom:-2%;
+	padding:none;
 }
 div.Title {
 	margin:auto;
