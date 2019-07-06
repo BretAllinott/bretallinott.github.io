@@ -71,6 +71,7 @@ div#navBar a.active {
 .smallContent {
 	width: 850px;
 	margin: auto;
+	margin-left:-17%;
 }
 .centerContent{
 	margin-left:2%;
@@ -143,6 +144,9 @@ div#navBar a.active {
 }
 
 /*Project Contents*/
+.projectContent {
+	border-spacing: all;
+}
 .projectContent p{
 	font-size:30px;
 	text-align:center;
@@ -177,12 +181,18 @@ div#navBar a.active {
 .projectContent img{
 	margin-top:1%;
 	align-items:center;
+	margin-left:80%;
+	margin-right:10%;
+
 }
 .projectContent h1{
-	font-size:40px;
+	font-size:30px;
 	text-decoration:underline;
-	margin-left:25%;
+	margin-left:30%;
 	margin-bottom:30px;
+	word-spacing:all;
+	padding-right:30%;
+	padding-left:5%;
 }
 .projectContent h2{
 	padding-top:3%;
@@ -190,23 +200,22 @@ div#navBar a.active {
 	text-align:center;
 	text-decoration:all;
 }
-.projectIcons {
-	margin-left:12%;
-	margin-top:0%;
+.projectIcons2 {
+	margin-left:5%;
+	margin-top:2%;
 	margin-bottom:-2%;
-	padding:none;
 }
 div.Title {
 	margin:auto;
 	width: 800px;
 	height:75px;
 	display:block;
-	font-size: 60px;
+	font-size: 50px;
 	border-top:3px;
 	border-bottom:3px;
 	border-color:white;
 	text-align:center;
-	margin-bottom:1%;
+	margin-bottom:2%;
 }
 div.Title p{
 	text-align:center;
