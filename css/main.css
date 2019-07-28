@@ -7,18 +7,14 @@ h1, h2, a, p {
 body {
 	background-color: #212121;
 	color: white;
-	font-family: Roboto;
 }
 /* bio formatting */
-div#intro a {
-	color: white;
-	font-size: 100px;
-	text-decoration: none;
-}
 div#intro  {
 	color: white;
 	font-size: 100px;
-	text-decoration: none;
+}
+div#intro a {
+	font-size: 100px;
 }
 div#intro td{
 	margin: 0;
@@ -26,8 +22,6 @@ div#intro td{
 }
 /*nav bar */
 div#navBar {
-	padding:0px;
-	margin:none;
 }
 div#navBar ul{
 	list-style-type:none;
@@ -37,16 +31,14 @@ div#navBar ul{
 	background-color:#212121;
 }
 div#navBar a{
-	color:white;
 	text-align:center;
 	padding:0px 60px;
 	text-decoration:none;
 	font-size:30px;
-	margin:none;
+	color: white;
 }
 div#navBar li{
 	float:left;
-	padding:0px 0px 0px 0px;
 }
 	/* projects page*/
 img.projPic{
@@ -151,10 +143,8 @@ div#navBar a.active {
 	font-size:30px;
 	text-align:center;
 	border-top:3px;
-	border-left:0px;
-	border-right:0px;
 	border-bottom:3px;
-	border-style:solid;
+	border-style: solid;
 	border-color:#white;
 	background-color:#4CAF50;
 	padding:1%;
@@ -163,7 +153,6 @@ div#navBar a.active {
 	text-align:center;
 }
 .projectContent td{
-	margin-left:0%;
 	background-color:#212121;
 	align-items:center;
 	margin-bottom:60%;
@@ -177,6 +166,7 @@ div#navBar a.active {
 	text-align:center;
 	color:#4CAF50;
 	margin-bottom:25%;
+	padding:none;
 }
 .projectContent img{
 	margin-top:1%;
@@ -195,15 +185,25 @@ div#navBar a.active {
 	padding-left:5%;
 }
 .projectContent h2{
-	padding-top:3%;
-	font-size:20px;
+	font-size:30px;
 	text-align:center;
-	text-decoration:all;
+	text-decoration:underline;
 }
 .projectIcons2 {
 	margin-left:5%;
 	margin-top:2%;
 	margin-bottom:-2%;
+	text-decoration:underline;
+}
+.projectIcons1 {
+	margin-left:5%;
+	margin-top: 2%;
+	margin-bottom: -2%;
+}
+.jumplinks {
+	text-indent:100px;
+	margin-left:25%;
+	padding:none;
 }
 div.Title {
 	margin:auto;
@@ -220,8 +220,6 @@ div.Title {
 div.Title p{
 	text-align:center;
 	border-top:3px;
-	border-left:0px;
-	border-right:0px;
 	border-bottom:3px;
 	border-style:solid;
 	border-color:#white;
