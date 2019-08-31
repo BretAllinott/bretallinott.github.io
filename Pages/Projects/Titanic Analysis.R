@@ -423,8 +423,3 @@ set.seed(1234)
 rf.6 <-randomForest(x=rf.train.5, y=rf.label, importance= TRUE, ntree= 1000)
 rf.6
 #SAME error rate as with just family size
-
-
-
-
-
