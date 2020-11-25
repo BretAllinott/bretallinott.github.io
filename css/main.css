@@ -81,7 +81,8 @@ div.centerContent2 {
 	margin:auto;
 	font-size:50px;
 	max-width:700px;
-	padding-left:125px;
+	padding-left:-400px;
+	margin-left: 790px;
 }
 .centerContent2 p{
 	margin-left:-23%;
